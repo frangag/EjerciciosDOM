@@ -7,5 +7,9 @@ const DATA = [
 ];
 
 // Escribe el código necesario aquí
-
-//
+for (let index = 0; index < DATA.length; index++) {
+  const name = DATA[index].name;
+  const lastname = DATA[index].lastname;
+document.getElementById("container").innerHTML +=
+"<p>"+ name + " " + lastname +"</p>";  
+}

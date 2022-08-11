@@ -4,6 +4,5 @@ const inputParagraph = document.getElementById("inputParagraph");
 
 buttonAdd.addEventListener("click", () => {
   // Escribe el código necesario aquí
-  
-  //
+  container.innerHTML += "<p>" + inputParagraph.value + "</p>"
 });
